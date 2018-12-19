@@ -1,0 +1,10 @@
+while True:
+    try:
+        a,b=input().split()
+
+        if a=="0" and b=="0":
+            break
+        else:
+            print(int(a)+int(b))
+    except:
+        break
